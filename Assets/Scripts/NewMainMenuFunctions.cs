@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class NewMainMenuFunctions : MonoBehaviour
 {
+    //TODO: Not needed for MVP, but this script really needs to be cleaned up and made more readable, focus was on functionality not readability.
     [Header("Menu Objects")]
     public GameObject initialMenu;
     public GameObject GuidedMode_Menu1;

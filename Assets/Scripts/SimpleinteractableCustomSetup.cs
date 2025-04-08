@@ -13,7 +13,7 @@ public class SimpleinteractableCustomSetup : MonoBehaviour
         var interactable = GetComponent<XRSimpleInteractable>();
         var collider = GetComponent<Collider>();
         interactable.colliders[0] = collider;
-        interactable.interactionManager = FindObjectOfType<XRInteractionManager>();
+        interactable.interactionManager = FindAnyObjectByType<XRInteractionManager>();
         interactable.selectEntered.AddListener(OnSelectEntered);
     }
 
